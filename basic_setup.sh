@@ -17,6 +17,7 @@ sudo pip install pandas
 sudo apt-get install libxml2-dev libxslt-dev
 sudo pip install lxml
 sudo pip install Scrapy
+sudo pip install beautifulsoup4
 
 #
 #install git
@@ -42,3 +43,6 @@ sudo apt-get install s3cmd
 
 #change owner of mnt
 sudo chown -R ubuntu /mnt
+
+# install csvtool for viewing csv files
+sudo apt-get install csvtool
