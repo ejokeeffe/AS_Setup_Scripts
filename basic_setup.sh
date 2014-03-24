@@ -18,6 +18,8 @@ sudo apt-get install libxml2-dev libxslt-dev
 sudo pip install lxml
 sudo pip install Scrapy
 sudo pip install beautifulsoup4
+# Nose
+sudo pip install nose
 
 #
 #install git
