@@ -31,6 +31,8 @@ sudo apt-get install git
 # set up nice vim rc
 git clone git://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_basic_vimrc.sh
+# and bash
+export PS1="\[\e[00;37m\]\t:\[\e[0m\]\[\e[00;33m\]\u\[\e[0m\]\[\e[00;37m\]@\h:\[\e[0m\]\[\e[00;36m\][\w]:\[\e[0m\]\[\e[00;37m\] \[\e[0m\]"
 
 #
 # May need to install unzip
