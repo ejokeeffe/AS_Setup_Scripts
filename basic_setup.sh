@@ -30,6 +30,9 @@ sudo apt-get install git
 git clone git://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_basic_vimrc.sh
 
+#
+# May need to install unzip
+sudo apt-get install unzip
 
 #set up python repository - you will need to add username and password
 mkdir pythonCode
