@@ -10,6 +10,13 @@ sudo apt-get install libatlas-base-dev gfortran
 sudo pip install scipy
 #Optional Packages:
 #OR  sudo apt-get install python-matplotlib
+# may require downloading matplotlib from git
+# in which case, get dependcies first
+# sudo apt-get build-dep python-matplotlib
+# and then install
+# git clone git://github.com/matplotlib/matplotlib.git
+# cd matplotlib
+# sudo python setup.py install
 sudo pip install matplotlib
 sudo pip install -U scikit-learn
 sudo pip install pandas
