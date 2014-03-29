@@ -60,3 +60,7 @@ sudo chown -R ubuntu /mnt
 
 # install csvtool for viewing csv files
 sudo apt-get install csvtool
+
+#install java and ant
+sudo apt-get install openjdk-7-jdk
+sudo apt-get install ant
