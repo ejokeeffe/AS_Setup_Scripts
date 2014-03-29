@@ -64,3 +64,4 @@ sudo apt-get install csvtool
 #install java and ant
 sudo apt-get install openjdk-7-jdk
 sudo apt-get install ant
+sudo apt-get install maven
