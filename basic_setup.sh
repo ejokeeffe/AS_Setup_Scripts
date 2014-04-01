@@ -27,6 +27,8 @@ sudo pip install Scrapy
 sudo pip install beautifulsoup4
 # Nose
 sudo pip install nose
+# kml parser
+sudo pip install pykml
 
 #
 #install git
