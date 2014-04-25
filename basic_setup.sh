@@ -4,6 +4,7 @@
 # Python and associated libraries first
 sudo apt-get update
 sudo apt-get install python-pip python-dev build-essential
+sudo apt-get install ipython-notebook
 #Actual Packages:
 sudo pip install numpy
 sudo apt-get install libatlas-base-dev gfortran
