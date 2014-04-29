@@ -70,3 +70,12 @@ sudo apt-get install ant
 sudo apt-get install maven
 #might need to update hava home
 export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-amd64
+
+#mount ebs drive
+lsblk
+sudo file -s /dev/xvdf
+#if "data" then wipe it
+sudo mkfs -t ext4 device_name
+sudo mkdir mount_point
+sudo mount device_name mount_point
+
