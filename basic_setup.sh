@@ -65,7 +65,10 @@ sudo chown -R ubuntu /mnt
 sudo apt-get install csvtool
 
 #install java and ant (might be worth installing 6 also - certainly to do the AWS EMR wikipedia example)
+sudo apt-get update
 sudo apt-get install openjdk-7-jdk
+#may need to install this for gnome 
+sudo apt-get install gsettings-desktop-schemas
 sudo apt-get install ant
 sudo apt-get install maven
 #might need to update hava home
